@@ -3,6 +3,14 @@
 
 This integration extends the alerting capability of Librato to leverage the xMatters communications platform and toolchain capabilities. 
 
+---------
+
+<kbd>
+  <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+</kbd>
+
+---------
+
 
 # Pre-Requisites
 * [Librato](http://www.solarwinds.com/librato) account
