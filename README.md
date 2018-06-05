@@ -28,12 +28,8 @@ An alert fires a webhook to the xMatters integration builder. The integration bu
 ## xMatters set up
 1. Login as a Company Supervisor and navigate to the Developer tab. 
 2. Import the [LibratoCommPlan.zip](LibratoCommPlan.zip) file and update the access permissions to include the `REST Web Services User` role. 
-
-Copy inbound url
-
-Set default recipient
-
-FINISHME
+3. Click on the Integration Builder tab and click on the `Inbound from Librato` link. Scroll to the bottom and copy the trigger url at the bottom. Save for later. 
+4. Go back to the Forms tab and click the Edit > Layout next to the `New Librato Alert` form. Populate the recipients section with the desired recipient. 
 
 ## Librato set up
 1. Login to Librato and navigate to Alerts
