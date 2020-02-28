@@ -6,7 +6,9 @@ This integration extends the alerting capability of Librato to leverage the xMat
 ---------
 
 <kbd>
+  <a href="https://support.xmatters.com/hc/en-us/community/topics">
   <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+  </a>
 </kbd>
 
 ---------
@@ -17,7 +19,7 @@ This integration extends the alerting capability of Librato to leverage the xMat
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
 
 # Files
-* [LibratoCommPlan.zip](LibratoCommPlan.zip) - Communications Plan containing the inbound integration and form templates
+* [LibratoCommPlan.zip](LibratoCommPlan.zip) - Workflow containing the inbound integration and form templates
 
 # How it works
 An alert fires a webhook to the xMatters integration builder. The integration builder parses the incoming json and builds the event, then fires the event to notifiy the default recipients. Alternatively [subscriptions](http://help.xmatters.com/OnDemand/userguide/receivingalerts/subscriptions/howtousesubscriptions.htm) can be set up to notify the desired parties. 
@@ -35,19 +37,19 @@ An alert fires a webhook to the xMatters integration builder. The integration bu
 1. Login to Librato and navigate to Alerts
 
 <kbd>
-	<img src="media/LibratoAlerts.png">
+  <img src="media/LibratoAlerts.png">
 </kbd>
 2. Click Create New Alert and enter the appropirate information Alert name, description, and runbook url. Then add the Alert conditions the alert should be triggered for. 
 3. On the Notification Services tab click the Create New Service drop down and scroll down to Webhook
 
 <kbd>
-	<img src="media/LibratoCreateService.png">
+  <img src="media/LibratoCreateService.png">
 </kbd>
 
 4. Enter a title and in the url field, paste in the Inbound Integration url copied from xMatters above. 
 
 <kbd>
-	<img src="media/LibratoWebhook.png">
+  <img src="media/LibratoWebhook.png">
 </kbd>
 
 5. Click Save. Send a test alert to make sure everything is working.
