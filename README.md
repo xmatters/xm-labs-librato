@@ -1,7 +1,5 @@
 # Librato
-[Librato](http://www.solarwinds.com/librato) aggregates cloud metrics into real-time monitoring dashboards for instant visibility. 
-
-This integration extends the alerting capability of Librato to leverage the xMatters communications platform and toolchain capabilities. 
+Librato is now a part of SolaWinds AppOptics. You can install the AppOptics integration right from the Workflow Template directory within your xMatters instance. The integration is based on xMatters Flow Designer so you can easily connect other tools to your toolchain. [Learn more](http://help.xmatters.com/integrations/#cshid=AppOptics).
 
 ---------
 
